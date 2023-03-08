@@ -1,0 +1,27 @@
+.Image{
+    max-width: 700px;
+    box-shadow: 0px 0px 7px -1px #b3b3b3bf;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Image span{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    position: absolute;
+}
+.top{
+    top: 20px;
+}
+.bottom{
+    bottom: 20px;
+}
